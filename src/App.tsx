@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import { Item } from "./Item";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <BrowserRouter>
       <div>
